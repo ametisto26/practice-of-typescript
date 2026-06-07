@@ -2,6 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const name: string = "hello";
+let nameChange = "hello";
+nameChange = "hello John";
+
+
+interface NAME {
+  first: string;
+  last?: string | null;
+}
+
+let nameObj: NAME = { first: "John"} 
+
+const func1 = (x: number, y: number) => {
+  return x + y;
+}
+
 function App() {
   return (
     <div className="App">
